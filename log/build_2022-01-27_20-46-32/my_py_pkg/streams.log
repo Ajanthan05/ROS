@@ -1,0 +1,19 @@
+[0.575s] Invoking command in '/home/ajantharajah/jude_ws/build/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg
+[0.789s] running develop
+[0.914s] running egg_info
+[0.914s] writing my_py_pkg.egg-info/PKG-INFO
+[0.914s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.915s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.915s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.915s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.945s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.946s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.977s] Creating /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.978s] Installing py_node script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.978s] Installing robot_news_station script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.978s] Installing smartphone script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.978s] 
+[0.978s] Installed /home/ajantharajah/jude_ws/build/my_py_pkg
+[0.979s] running install_data
+[1.001s] Invoked command in '/home/ajantharajah/jude_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg

@@ -1,0 +1,76 @@
+[0.014s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[0.039s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.232s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.423s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.558s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.718s] -- Configuring done
+[0.755s] -- Generating done
+[0.758s] -- Build files have been written to: /home/ajantharajah/jude_ws/build/my_cpp_pkg
+[0.785s] [35m[1mScanning dependencies of target add_two_ints_server[0m
+[0.785s] [35m[1mScanning dependencies of target robot_news_station[0m
+[0.785s] [35m[1mScanning dependencies of target add_two_ints_client[0m
+[0.785s] [35m[1mScanning dependencies of target number_counter[0m
+[0.785s] [35m[1mScanning dependencies of target smartphone[0m
+[0.785s] [35m[1mScanning dependencies of target add_two_ints_client_no_oop[0m
+[0.785s] [35m[1mScanning dependencies of target number_publisher[0m
+[0.816s] [ 12%] Built target cpp_node
+[0.836s] [ 18%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[0.843s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.843s] [ 31%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[0.845s] [ 43%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[0.846s] [ 43%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.846s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[0.847s] [ 56%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[3.756s] [ 62%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[3.915s] [ 68%] [32m[1mLinking CXX executable robot_news_station[0m
+[4.000s] [ 68%] Built target add_two_ints_server
+[4.118s] [ 68%] Built target robot_news_station
+[4.805s] [ 75%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[4.967s] [ 81%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[5.070s] [ 81%] Built target add_two_ints_client_no_oop
+[5.217s] [ 81%] Built target add_two_ints_client
+[5.434s] [ 87%] [32m[1mLinking CXX executable number_publisher[0m
+[5.616s] [ 87%] Built target number_publisher
+[7.259s] [ 93%] [32m[1mLinking CXX executable smartphone[0m
+[7.505s] [ 93%] Built target smartphone
+[7.823s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[8.064s] [100%] Built target number_counter
+[8.075s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[8.122s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ajantharajah/jude_ws/build/my_cpp_pkg
+[8.131s] -- Install configuration: ""
+[8.132s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[8.133s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[8.133s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[8.134s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[8.135s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[8.135s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[8.136s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[8.136s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[8.138s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[8.138s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[8.139s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[8.139s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[8.140s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[8.140s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[8.140s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[8.141s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.141s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.142s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.142s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.142s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.142s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.143s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.143s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.143s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.143s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.143s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.144s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.144s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.144s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.144s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.146s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ajantharajah/jude_ws/build/my_cpp_pkg

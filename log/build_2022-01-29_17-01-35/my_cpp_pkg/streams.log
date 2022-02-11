@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[0.039s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.229s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.567s] CMake Error at CMakeLists.txt:16 (find_package):
+[0.568s]   By not providing "Findecample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.568s]   project has asked CMake to find a package configuration file provided by
+[0.568s]   "ecample_interfaces", but CMake did not find one.
+[0.568s] 
+[0.568s]   Could not find a package configuration file provided by
+[0.568s]   "ecample_interfaces" with any of the following names:
+[0.568s] 
+[0.568s]     ecample_interfacesConfig.cmake
+[0.568s]     ecample_interfaces-config.cmake
+[0.568s] 
+[0.568s]   Add the installation prefix of "ecample_interfaces" to CMAKE_PREFIX_PATH or
+[0.568s]   set "ecample_interfaces_DIR" to a directory containing one of the above
+[0.568s]   files.  If "ecample_interfaces" provides a separate development package or
+[0.568s]   SDK, be sure it has been installed.
+[0.568s] 
+[0.568s] 
+[0.569s] -- Configuring incomplete, errors occurred!
+[0.569s] See also "/home/ajantharajah/jude_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.569s] See also "/home/ajantharajah/jude_ws/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[0.574s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.576s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8

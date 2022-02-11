@@ -1,0 +1,48 @@
+[0.567s] Invoking command in '/home/ajantharajah/jude_ws/build/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --uninstall --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build
+[0.780s] running develop
+[0.908s] Removing /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.925s] Invoked command in '/home/ajantharajah/jude_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --uninstall --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build
+[0.927s] Invoking command in '/home/ajantharajah/jude_ws/src/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ajantharajah/jude_ws/build/my_py_pkg/build install --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --record /home/ajantharajah/jude_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.121s] running egg_info
+[1.122s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.155s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.156s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.157s] copying my_py_pkg/number_publisher.py -> /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.157s] copying my_py_pkg/add_two_ints_server.py -> /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.158s] copying my_py_pkg/templet.py -> /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.158s] copying my_py_pkg/robot_news_station.py -> /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.158s] copying my_py_pkg/smartphone.py -> /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.158s] running install
+[1.159s] running install_lib
+[1.159s] creating /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/templet.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.160s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.161s] copying /home/ajantharajah/jude_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.161s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[1.162s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-38.pyc
+[1.162s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[1.163s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/templet.py to templet.cpython-38.pyc
+[1.163s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[1.163s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc
+[1.164s] byte-compiling /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-38.pyc
+[1.164s] running install_data
+[1.164s] running install_egg_info
+[1.166s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.167s] running install_scripts
+[1.182s] Installing add_two_ints_server script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.182s] Installing number_publisher script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.182s] Installing py_node script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.182s] Installing robot_news_station script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.183s] Installing smartphone script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.183s] writing list of installed files to '/home/ajantharajah/jude_ws/build/my_py_pkg/install.log'
+[1.201s] Invoked command in '/home/ajantharajah/jude_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ajantharajah/jude_ws/build/my_py_pkg/build install --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --record /home/ajantharajah/jude_ws/build/my_py_pkg/install.log --single-version-externally-managed

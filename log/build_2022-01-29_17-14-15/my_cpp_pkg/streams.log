@@ -1,0 +1,66 @@
+[0.013s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[0.040s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.229s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.554s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.714s] -- Configuring done
+[0.715s] CMake Error at CMakeLists.txt:27 (add_executable):
+[0.715s]   Cannot find source file:
+[0.715s] 
+[0.715s]     src/number_publisher.cpp
+[0.715s] 
+[0.715s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.715s]   .hpp .hxx .in .txx
+[0.715s] 
+[0.715s] 
+[0.716s] CMake Error at CMakeLists.txt:30 (add_executable):
+[0.716s]   Cannot find source file:
+[0.716s] 
+[0.716s]     src/number_counter.cpp
+[0.716s] 
+[0.716s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.716s]   .hpp .hxx .in .txx
+[0.716s] 
+[0.716s] 
+[0.716s] CMake Error at CMakeLists.txt:36 (add_executable):
+[0.717s]   Cannot find source file:
+[0.717s] 
+[0.717s]     src/add_two_ints_client.cpp
+[0.717s] 
+[0.717s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.717s]   .hpp .hxx .in .txx
+[0.717s] 
+[0.717s] 
+[0.717s] CMake Error at CMakeLists.txt:39 (add_executable):
+[0.717s]   Cannot find source file:
+[0.717s] 
+[0.717s]     src/add_two_ints_client_no_oop.cpp
+[0.717s] 
+[0.717s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.717s]   .hpp .hxx .in .txx
+[0.717s] 
+[0.717s] 
+[0.718s] CMake Error at CMakeLists.txt:27 (add_executable):
+[0.718s]   No SOURCES given to target: number_publisher
+[0.718s] 
+[0.718s] 
+[0.718s] CMake Error at CMakeLists.txt:30 (add_executable):
+[0.718s]   No SOURCES given to target: number_counter
+[0.718s] 
+[0.718s] 
+[0.718s] CMake Error at CMakeLists.txt:36 (add_executable):
+[0.718s]   No SOURCES given to target: add_two_ints_client
+[0.718s] 
+[0.718s] 
+[0.718s] CMake Error at CMakeLists.txt:39 (add_executable):
+[0.718s]   No SOURCES given to target: add_two_ints_client_no_oop
+[0.718s] 
+[0.718s] 
+[0.718s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.722s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.723s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8

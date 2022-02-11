@@ -1,0 +1,19 @@
+[0.674s] Invoking command in '/home/ajantharajah/jude_ws/build/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg
+[0.878s] running develop
+[0.998s] running egg_info
+[0.998s] writing my_py_pkg.egg-info/PKG-INFO
+[0.999s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.999s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.999s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.999s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.031s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.061s] running build_ext
+[1.062s] Creating /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/site.py
+[1.064s] Creating /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.065s] Installing py_node script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] 
+[1.065s] Installed /home/ajantharajah/jude_ws/build/my_py_pkg
+[1.065s] running install_data
+[1.066s] copying package.xml -> /home/ajantharajah/jude_ws/install/my_py_pkg/share/my_py_pkg
+[1.089s] Invoked command in '/home/ajantharajah/jude_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg

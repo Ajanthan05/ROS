@@ -1,0 +1,21 @@
+[0.580s] Invoking command in '/home/ajantharajah/jude_ws/build/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg
+[0.795s] running develop
+[0.920s] running egg_info
+[0.920s] writing my_py_pkg.egg-info/PKG-INFO
+[0.920s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.920s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.921s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.921s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.951s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.952s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.983s] running build_ext
+[0.984s] Creating /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.985s] Installing add_two_ints_server script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.985s] Installing number_publisher script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.985s] Installing py_node script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.986s] Installing robot_news_station script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.986s] Installing smartphone script to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/my_py_pkg
+[0.986s] 
+[0.986s] Installed /home/ajantharajah/jude_ws/build/my_py_pkg
+[0.986s] running install_data
+[1.010s] Invoked command in '/home/ajantharajah/jude_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --editable --build-directory /home/ajantharajah/jude_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/ajantharajah/jude_ws/install/my_py_pkg

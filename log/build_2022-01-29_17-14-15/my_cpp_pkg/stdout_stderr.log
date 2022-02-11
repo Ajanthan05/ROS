@@ -1,0 +1,64 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+CMake Error at CMakeLists.txt:27 (add_executable):
+  Cannot find source file:
+
+    src/number_publisher.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:30 (add_executable):
+  Cannot find source file:
+
+    src/number_counter.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:36 (add_executable):
+  Cannot find source file:
+
+    src/add_two_ints_client.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:39 (add_executable):
+  Cannot find source file:
+
+    src/add_two_ints_client_no_oop.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:27 (add_executable):
+  No SOURCES given to target: number_publisher
+
+
+CMake Error at CMakeLists.txt:30 (add_executable):
+  No SOURCES given to target: number_counter
+
+
+CMake Error at CMakeLists.txt:36 (add_executable):
+  No SOURCES given to target: add_two_ints_client
+
+
+CMake Error at CMakeLists.txt:39 (add_executable):
+  No SOURCES given to target: add_two_ints_client_no_oop
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:266: cmake_check_build_system] Error 1

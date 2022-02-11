@@ -1,0 +1,37 @@
+[0.023s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[0.055s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.281s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.796s] -- Configuring done
+[0.807s] -- Generating done
+[0.808s] -- Build files have been written to: /home/ajantharajah/jude_ws/build/my_cpp_pkg
+[0.832s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.865s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.685s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.851s] [100%] Built target cpp_node
+[2.861s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ajantharajah/jude_ws/build/my_cpp_pkg -- -j8 -l8
+[2.895s] Invoking command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ajantharajah/jude_ws/build/my_cpp_pkg
+[2.903s] -- Install configuration: ""
+[2.903s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.904s] -- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.904s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.904s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.904s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.905s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.905s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.905s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.905s] -- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.905s] -- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.908s] Invoked command in '/home/ajantharajah/jude_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ajantharajah/jude_ws/build/my_cpp_pkg

@@ -1,0 +1,20 @@
+[0.713s] Invoking command in '/home/ajantharajah/jude_ws/src/my_py_pkg': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ajantharajah/jude_ws/build/my_py_pkg/build install --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --record /home/ajantharajah/jude_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.918s] running egg_info
+[0.919s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.920s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.920s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.920s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.920s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.956s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.957s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.957s] running build
+[0.957s] running build_py
+[0.958s] running install
+[0.959s] running install_lib
+[0.961s] running install_data
+[0.961s] running install_egg_info
+[0.963s] removing '/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.963s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.965s] running install_scripts
+[0.981s] writing list of installed files to '/home/ajantharajah/jude_ws/build/my_py_pkg/install.log'
+[1.003s] Invoked command in '/home/ajantharajah/jude_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ajantharajah/jude_ws/build/my_py_pkg/build install --prefix /home/ajantharajah/jude_ws/install/my_py_pkg --record /home/ajantharajah/jude_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000941] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000995] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001022] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.011324] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.012083] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.013055] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ajantharajah/jude_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ajantharajah/jude_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ajantharajah'), ('SSH_AGENT_PID', '1931'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ajantharajah'), ('OLDPWD', '/home/ajantharajah'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '156894'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ajantharajah/jude_ws/install:/home/ajantharajah/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ajantharajah'), ('JOURNAL_STREAM', '8:47816'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajantharajah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ajantharajah/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ajantharajah-Inspiron-7577:@/tmp/.ICE-unix/1965,unix/ajantharajah-Inspiron-7577:/tmp/.ICE-unix/1965'), ('INVOCATION_ID', '58900af97a5b44bb892f2506da898f3d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/jude_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f6b7ffe2-fe05-464c-b2fe-fad60ec058cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajantharajah/jude_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ajantharajah/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ajantharajah/jude_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/aj_cpp_pkg:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.039788] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.064091] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099819] (-) TimerEvent: {}
+[0.200119] (-) TimerEvent: {}
+[0.233382] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.264669] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.267876] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300244] (-) TimerEvent: {}
+[0.378038] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400348] (-) TimerEvent: {}
+[0.423607] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.424973] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500470] (-) TimerEvent: {}
+[0.558629] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[0.600573] (-) TimerEvent: {}
+[0.700841] (-) TimerEvent: {}
+[0.718504] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.756317] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.758499] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ajantharajah/jude_ws/build/my_cpp_pkg\n'}
+[0.785491] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_server\x1b[0m\n'}
+[0.785782] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_news_station\x1b[0m\n'}
+[0.785902] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_client\x1b[0m\n'}
+[0.785997] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_counter\x1b[0m\n'}
+[0.786062] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target smartphone\x1b[0m\n'}
+[0.786125] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[0.786188] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_publisher\x1b[0m\n'}
+[0.800946] (-) TimerEvent: {}
+[0.817239] (my_cpp_pkg) StdoutLine: {'line': b'[ 12%] Built target cpp_node\n'}
+[0.836493] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.843777] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.844248] (my_cpp_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.846281] (my_cpp_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.846464] (my_cpp_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[0.847108] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[0.848275] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.901039] (-) TimerEvent: {}
+[1.001485] (-) TimerEvent: {}
+[1.102446] (-) TimerEvent: {}
+[1.202897] (-) TimerEvent: {}
+[1.303348] (-) TimerEvent: {}
+[1.403803] (-) TimerEvent: {}
+[1.504452] (-) TimerEvent: {}
+[1.604784] (-) TimerEvent: {}
+[1.705154] (-) TimerEvent: {}
+[1.805511] (-) TimerEvent: {}
+[1.905857] (-) TimerEvent: {}
+[2.006657] (-) TimerEvent: {}
+[2.109478] (-) TimerEvent: {}
+[2.210364] (-) TimerEvent: {}
+[2.316738] (-) TimerEvent: {}
+[2.421647] (-) TimerEvent: {}
+[2.534656] (-) TimerEvent: {}
+[2.634997] (-) TimerEvent: {}
+[2.735505] (-) TimerEvent: {}
+[2.835856] (-) TimerEvent: {}
+[2.936216] (-) TimerEvent: {}
+[3.037516] (-) TimerEvent: {}
+[3.137858] (-) TimerEvent: {}
+[3.250651] (-) TimerEvent: {}
+[3.350989] (-) TimerEvent: {}
+[3.451319] (-) TimerEvent: {}
+[3.551795] (-) TimerEvent: {}
+[3.652262] (-) TimerEvent: {}
+[3.752717] (-) TimerEvent: {}
+[3.756247] (my_cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[3.852815] (-) TimerEvent: {}
+[3.915560] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[3.952937] (-) TimerEvent: {}
+[4.001199] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target add_two_ints_server\n'}
+[4.053067] (-) TimerEvent: {}
+[4.118999] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target robot_news_station\n'}
+[4.153184] (-) TimerEvent: {}
+[4.253520] (-) TimerEvent: {}
+[4.353907] (-) TimerEvent: {}
+[4.454274] (-) TimerEvent: {}
+[4.554650] (-) TimerEvent: {}
+[4.654973] (-) TimerEvent: {}
+[4.755292] (-) TimerEvent: {}
+[4.805396] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[4.855413] (-) TimerEvent: {}
+[4.955777] (-) TimerEvent: {}
+[4.967859] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[5.055922] (-) TimerEvent: {}
+[5.071194] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target add_two_ints_client_no_oop\n'}
+[5.156054] (-) TimerEvent: {}
+[5.218140] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target add_two_ints_client\n'}
+[5.256162] (-) TimerEvent: {}
+[5.356498] (-) TimerEvent: {}
+[5.435120] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[5.456610] (-) TimerEvent: {}
+[5.556933] (-) TimerEvent: {}
+[5.616584] (my_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target number_publisher\n'}
+[5.657040] (-) TimerEvent: {}
+[5.757347] (-) TimerEvent: {}
+[5.857654] (-) TimerEvent: {}
+[5.957987] (-) TimerEvent: {}
+[6.058294] (-) TimerEvent: {}
+[6.158666] (-) TimerEvent: {}
+[6.258987] (-) TimerEvent: {}
+[6.359345] (-) TimerEvent: {}
+[6.459629] (-) TimerEvent: {}
+[6.559951] (-) TimerEvent: {}
+[6.660311] (-) TimerEvent: {}
+[6.760599] (-) TimerEvent: {}
+[6.860905] (-) TimerEvent: {}
+[6.961244] (-) TimerEvent: {}
+[7.061533] (-) TimerEvent: {}
+[7.161875] (-) TimerEvent: {}
+[7.260309] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[7.261954] (-) TimerEvent: {}
+[7.362286] (-) TimerEvent: {}
+[7.462692] (-) TimerEvent: {}
+[7.505882] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target smartphone\n'}
+[7.562781] (-) TimerEvent: {}
+[7.663077] (-) TimerEvent: {}
+[7.763391] (-) TimerEvent: {}
+[7.823650] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[7.863513] (-) TimerEvent: {}
+[7.963827] (-) TimerEvent: {}
+[8.064132] (-) TimerEvent: {}
+[8.064927] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[8.075303] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.112780] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.122975] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ajantharajah/jude_ws/build/my_cpp_pkg'], 'cwd': '/home/ajantharajah/jude_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ajantharajah'), ('SSH_AGENT_PID', '1931'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ajantharajah'), ('OLDPWD', '/home/ajantharajah'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '156894'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ajantharajah/jude_ws/install:/home/ajantharajah/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ajantharajah'), ('JOURNAL_STREAM', '8:47816'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ajantharajah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ajantharajah/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ajantharajah-Inspiron-7577:@/tmp/.ICE-unix/1965,unix/ajantharajah-Inspiron-7577:/tmp/.ICE-unix/1965'), ('INVOCATION_ID', '58900af97a5b44bb892f2506da898f3d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/jude_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f6b7ffe2-fe05-464c-b2fe-fad60ec058cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ajantharajah/jude_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ajantharajah/jude_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/ajantharajah/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ajantharajah/jude_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/my_cpp_pkg:/home/ajantharajah/ros2_ws/install/aj_cpp_pkg:/home/ajantharajah/jude_ws/install/my_py_pkg:/home/ajantharajah/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[8.131435] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.133255] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[8.133497] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[8.134341] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[8.134483] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[8.136145] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[8.136342] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[8.136998] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""\n'}
+[8.137213] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[8.139052] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[8.139270] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[8.139732] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""\n'}
+[8.139942] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[8.140578] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""\n'}
+[8.140779] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[8.141260] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ajantharajah/jude_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""\n'}
+[8.141472] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[8.141715] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[8.142689] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.142786] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.143150] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[8.143245] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[8.143783] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[8.143917] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[8.144177] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[8.144268] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[8.144334] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[8.144508] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[8.144696] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[8.144762] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[8.144824] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/ajantharajah/jude_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[8.146435] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.164239] (-) TimerEvent: {}
+[8.207106] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[8.208148] (-) EventReactorShutdown: {}
